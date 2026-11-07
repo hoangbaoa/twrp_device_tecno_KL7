@@ -8,10 +8,10 @@
 $(call inherit-product, device/tecno/KL7/device.mk)
 
 # Inherit some common TWRP stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := pb_KL7
+PRODUCT_NAME := twrp_KL7
 PRODUCT_DEVICE := KL7
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO KL7
